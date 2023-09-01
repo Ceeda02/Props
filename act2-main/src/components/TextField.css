@@ -1,0 +1,20 @@
+.custom-textfield,
+.custom-textfield-green {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.custom-textfield-green {
+  border-radius: 10px;
+  background-color: green;
+}
+
+.custom-textfield:focus,
+.custom-textfield-green:focus {
+  outline: none;
+  border-color: #007bff;
+}
